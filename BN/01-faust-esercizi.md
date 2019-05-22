@@ -2,9 +2,8 @@
 
 ##### 1. Scrivi un programma che utilizzi i quattro operatori matematici in parallelo
 
-```
 import("stdfaust.lib");
-process =
+process =_+_,_-_,_*_,_/_;
 ```
 
 ##### 2. Scrivi un programma che utilizzi i quattro operatori matematici in serie
